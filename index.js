@@ -54,7 +54,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "254751991761"
+let phoneNumber = "254115348341"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 global.botname = "KNIGHT BOT"
