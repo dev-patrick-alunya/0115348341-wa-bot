@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build"
+    "docker:build": "docker build -t knightbot .",
+    "docker:run": "docker run -e SESSION_ID=$SESSION_ID knightbot"
   },
   "keywords": [
     "whatsapp-bot"
